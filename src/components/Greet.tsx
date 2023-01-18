@@ -5,6 +5,7 @@ type GreetProps = {
 };
 
 export function Greet({ name, messageCount, isLoggedIn }: GreetProps) {
+  // The values that are destructured from props must be named the same as the values in the custom type ie: GreetProps
   return (
     <div>
       <h1>
